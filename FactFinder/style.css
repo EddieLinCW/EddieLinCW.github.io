@@ -1,0 +1,91 @@
+html{
+	height:100%;
+}
+body{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:100%;
+	background-color:#86626E;
+}
+main{
+	width:700px;
+	height:500px;
+	display:grid;
+	grid-template-rows:1fr 6fr;
+}
+
+Section{
+	border:3px solid #D78521;
+	border-radius:25px;
+	padding:20px;
+	background-color:#DBAFC1;
+	color:#86626E;
+	font-size:18px;
+	font-family:Helvetica;
+}
+
+#menu{
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+	padding:20px;
+	grid-gap:10px;
+}
+
+#menu > input{
+	background-color:#DBAFC1;
+	color:#86626E;
+	font-size:16px;
+	font-family:'Comic Sans MS';
+	border:3px solid #D78521;
+	border-radius:20px;
+}
+
+#menu > input:hover{
+	background-color:#D78521;
+	color:#B5EF8A;
+}
+
+
+#theme{
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr;
+	padding:20px;
+	grid-gap:10px;
+}
+
+#theme > input{
+	background-color:#DBAFC1;
+	color:#86626E;
+	font-size:16px;
+	font-family:'Comic Sans MS';
+	border:3px solid #D78521;
+	border-radius:20px;
+}
+
+#theme > input:hover{
+	background-color:#D78521;
+	color:#B5EF8A;
+}
+
+
+
+#EiffelTower{
+	width:400px;
+}
+
+#MountEverest{
+	width:645px;	
+}
+
+#DeepSea{
+	width:600px;
+}
+
+#Nofact{
+	width:600px;
+}
+
+#earth{
+	width:600px;
+}
